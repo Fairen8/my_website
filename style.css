@@ -8,23 +8,15 @@ header {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    display: flex;
+    justify-content:space-between;
 }
 .navbar li { display: inline; }
-.sing {
-    display: inline-block;
-    margin: 5px;
-    position: relative;
-    left: 79%;
-    font-size: x-large;
-}
 .center {
-    position: absolute;
-    left: 50%;
+    position: relative;
+    left: 1.5%;
 }
-.right {
-    position: absolute;
-    left: 90%;
-}
+
 body{
     margin:0;
     overflow-x:hidden;
