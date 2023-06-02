@@ -1,8 +1,13 @@
 header {
-    background-color: #9102d9;
-    padding: 35px;
     font-size: xx-large;
-    border: 3px solid #4800ff;
+    border-bottom: 3px solid grey;
+    background:#000;
+    padding:25px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    text-decoration:none;
+    color:gray;
+    border-radius: 0 0 20px 20px;
 }
 .navbar {
     margin: 0;
@@ -16,6 +21,19 @@ header {
     position: relative;
     left: 1.5%;
 }
+a {
+    color: grey;
+    text-decoration: none;
+}
+a:active {
+    color: #4800ff;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
 
 body{
     margin:0;
@@ -27,6 +45,7 @@ body{
     padding:30px 0px;
     font-family: 'Play', sans-serif;
     text-align:center;
+    border-top:solid 2px grey;
 }
 
 .footer .row{
@@ -61,17 +80,4 @@ body{
     margin:0% 1%;
 }
 
-@media (max-width:720px){
-    .footer{
-        text-align:left;
-        padding:5%;
-    }
-    .footer .row ul li{
-        display:block;
-        margin:10px 0px;
-        text-align:left;
-    }
-    .footer .row a i{
-        margin:0% 3%;
-    }
-}
+
